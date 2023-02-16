@@ -22,7 +22,7 @@ headers = {
 
 reviews = []
 
-for page in range(1, 19):
+for page in range(1, 54):
     url = URL_TEMPLATE.format(page)
     r = requests.get(url, headers=headers)
     data = r.json()["data"]
