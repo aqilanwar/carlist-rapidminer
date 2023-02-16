@@ -1,7 +1,7 @@
 import requests
 import csv
 
-URL_TEMPLATE = "https://www.carlist.my/ajax/newreviews?make=Perodua&model=Axia&page={}"
+URL_TEMPLATE = "https://www.carlist.my/ajax/newreviews?make=Perodua&model=MyVi&page={}"
 
 headers = {
     'authority': 'www.carlist.my',
